@@ -1,0 +1,321 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+i {
+    color: #2fccd0;
+}
+
+.servicediv h2 {
+    font-size: 0.9rem;
+    margin: 20px 0 15px 0;
+    font-weight: bold;
+    line-height: 1.1;
+    word-spacing: 4px;
+}
+
+
+.nav-item a {
+    color: white !important;
+    font-weight: bold;
+}
+
+/************** service offers css starts *****************/
+
+
+.serviceoffers {
+    background: #f7f7f9;
+    padding: 50px 0;
+
+}
+
+.headings {
+    margin-bottom: 10px;
+}
+
+.headings h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.image img {
+    width: 70%;
+    height: 30%;
+    border-radius: 50%;
+    border: #0563bb solid 5px;
+    overflow: hidden;
+    margin-top: 20%;
+    margin-left: 20%;
+}
+.creds h1{
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.names h1 {
+    color: #2e2e2e;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.service-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.creds {
+    margin-top: 5px;
+}
+
+.skills {
+    border-right: #2e2e2e solid 1px;
+}
+
+.skills img {
+    width: 100%;
+    padding: 3px;
+    border: #2e2e2e solid 2px;
+}
+
+.skills img:hover {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+    transform: translateY(-20px);
+}
+
+.tools img {
+    width: 100%;
+    padding: 3px;
+    border: #2e2e2e solid 2px;
+}
+
+.tools img:hover {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+    transform: translateY(-20px);
+}
+
+/************** service offers css ends *****************/
+
+/************** parallax css starts *****************/
+
+.parallaxfooter {
+    height: 500px;
+    /* The image used */
+    background-image: url("../img/biz-oriented-footer.jpg");
+
+    /* Set a specific height */
+    min-height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/************** parallax css ends *****************/
+
+/******** Sections General ***************/
+section {
+    padding: 60px 0;
+    overflow: hidden;
+  }
+  
+  .section-title {
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  
+  .section-title h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #000000;
+  }
+  
+  .section-title h2::before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 120px;
+    height: 1px;
+    background: #ddd;
+    bottom: 1px;
+    left: calc(50% - 60px);
+  }
+  
+  .section-title h2::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: #0563bb;
+    bottom: 0;
+    left: calc(50% - 20px);
+  }
+  
+  .section-title p {
+    margin-bottom: 0;
+  }
+
+/*--------------------------------------------------------------
+# Resume
+--------------------------------------------------------------*/
+.resume .resume-title {
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #000000;
+  }
+  
+  .resume .resume-item {
+    padding: 0 0 20px 20px;
+    margin-top: -2px;
+    border-left: 2px solid #0563bb;
+    position: relative;
+  }
+  
+  .resume .resume-item h4 {
+    line-height: 18px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #0563bb;
+    margin-bottom: 10px;
+  }
+  
+  .resume .resume-item h5 {
+    font-size: 16px;
+    background: #f7f8f9;
+    padding: 5px 15px;
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .resume .resume-item ul {
+    padding-left: 20px;
+  }
+  
+  .resume .resume-item ul li {
+    padding-bottom: 10px;
+  }
+  
+  .resume .resume-item:last-child {
+    padding-bottom: 0;
+  }
+  
+  .resume .resume-item::before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    left: -9px;
+    top: 0;
+    background: #fff;
+    border: 2px solid #0563bb;
+  }
+
+
+/************** footer css starts *****************/
+
+
+.footersection {
+    width: 100%;
+    height: auto;
+    padding: 20px 0 20px 0;
+    background: #f7f7f9;
+    bottom: 0;
+}
+
+.footersection p {
+    color: black !important;
+}
+
+.footersection li a {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    font-weight: 400;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.footersection h3 {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 1.2rem !important;
+    font-weight: 600;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+.footertext {
+    display: flex;
+    justify-content: space-around;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+    z-index: 99;
+    border: none;
+    color: #fff;
+    background: #0563bb;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#myBtn:hover {
+    background: #606060;
+}
+
+/************** footer css ends *****************/
+
+@media(max-width: 768px) {
+    
+    .nav-item {
+        text-align: center !important;
+    }
+
+    .image img {
+        width: 70%;
+        height: 30%;
+        border-radius: 50%;
+        border: #0563bb solid 5px;
+        overflow: hidden;
+        margin-top: 0;
+        margin-left: 15%;
+    }
+
+    .skills {
+        border: none;
+    }
+
+}

@@ -1,0 +1,194 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+i {
+    color: #2fccd0;
+}
+
+.header {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 168, 255, 0.3), rgba(0, 168, 255, 0.3)), url('../../bg3.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    clip-path: polygon(100% 0%, 100% 75%, 50% 100%, 0% 75%, 0 0);
+}
+
+.header:before {
+    content: " ";
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f6 100%);
+    opacity: 0.3;
+    z-index: -1;
+}
+
+.navbar:before {
+    content: " ";
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f6 100%);
+    opacity: 0.3;
+    z-index: -1;
+}
+
+.nav-item a {
+    color: white !important;
+    font-weight: bold;
+}
+
+.header-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: inherit;
+    color: white;
+    position: relative;
+}
+
+.leftDiv {
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    transform: translateY(-50%);
+}
+
+#element {
+    font-weight: bold;
+}
+
+.header-buttons a i {
+    margin: 0 2px;
+    padding: 0px 20px;
+    outline: none;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 400px;
+    line-height: 1.4;
+    text-align: center;
+}
+
+.header-buttons a:hover {
+    text-decoration: none;
+}
+
+.header-buttons a i:hover {
+
+    border-radius: 100%;
+    color: #50d1c0;
+    background-color: #fff;
+    text-decoration: none;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+.leftDiv {
+    font-size: 1.3rem;
+    padding: 10px 0 20px 0;
+    color: #fff;
+}
+
+
+/************** footer css starts *****************/
+
+
+.footersection {
+    width: 100%;
+    height: auto;
+    padding: 20px 0 20px 0;
+    background: #00abff;
+}
+
+.footersection p {
+    color: #fff !important;
+}
+
+.footersection li a {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    font-weight: 400;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.footersection h3 {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 1.2rem !important;
+    font-weight: 600;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+.footertext {
+    display: flex;
+    justify-content: space-around;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+    z-index: 99;
+    border: none;
+    color: #fff;
+    background: #00abff;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#myBtn:hover {
+    background: #606060;
+}
+
+/************** footer css ends *****************/
+
+@media(max-width: 768px) {
+    .header {
+        background-image: linear-gradient(rgba(0, 168, 255, 0.3), rgba(0, 168, 255, 0.3)), url('../../bg1.jpg');
+
+    }
+
+    .nav-item {
+        text-align: center !important;
+    }
+
+    .leftDiv {
+        width: 100%;
+        height: auto;
+        position: absolute;
+        text-align: center;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+}
